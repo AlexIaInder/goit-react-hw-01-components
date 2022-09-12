@@ -1,0 +1,48 @@
+.profile {
+  background: rgb(252, 248, 248);
+  width: 400px;
+  border-radius: 5px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  padding: 40px;
+  color: rgb(92, 85, 85);
+}
+
+.description p {
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 120px;
+}
+
+.username {
+  font-size: 26px;
+  font-weight: bold;
+  color: black;
+}
+
+.stats {
+  display: flex;
+  border-top: 1px solid rgb(126, 124, 124);
+}
+
+.stats li {
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.stats span {
+  display: block;
+}
+
+.label {
+  font-weight: bold;
+}

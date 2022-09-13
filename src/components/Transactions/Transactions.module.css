@@ -1,0 +1,21 @@
+.transactionHistory {
+  border-collapse: collapse;
+  background: rgb(255, 253, 253);
+}
+
+.transactionHistory thead tr {
+  background: rgb(83, 109, 173);
+  color: azure;
+}
+
+.transactionHistory tbody tr:nth-child(2n) {
+  background: rgb(179, 183, 195);
+}
+
+.transactionHistory td,
+.transactionHistory th {
+  padding: 15px;
+  text-align: center;
+  border-right: 1px solid rgb(225, 225, 225);
+  width: 400px;
+}

@@ -1,0 +1,9 @@
+.statistics {
+  background-color: rgb(130, 154, 181);
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}

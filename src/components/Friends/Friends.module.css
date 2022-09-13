@@ -1,0 +1,37 @@
+.dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(142, 13, 13);
+}
+
+.greenDot {
+  background-color: rgb(46, 185, 18);
+}
+
+.friends {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  padding: 20px;
+}
+
+.friends li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  background: rgb(223, 198, 198);
+  border: 1px solid black;
+}
+
+.friends li img {
+  margin-left: 10px;
+}
+
+.friends li p {
+  margin-left: 40px;
+}
